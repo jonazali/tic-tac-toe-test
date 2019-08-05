@@ -1,5 +1,5 @@
-const play = require('../lib/play');
 const readlineSync = require('readline-sync');
+const play = require('../lib/play');
 
 describe('nextPlayer', () => {
   it(`should return 'O' if input is 'X'`, () => {
