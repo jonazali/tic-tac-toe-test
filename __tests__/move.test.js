@@ -42,6 +42,6 @@ describe('getValidMoveFromPlayer', () => {
     const result = move.getValidMoveFromPlayer(boardArray);
 
     expect(result).toEqual([1, 1]);
-    // expect(spy).toBeCalledTimes(2); NOTE: this should work, but move is written wrong for it
+    expect(spy).toBeCalledTimes(2);
   });
 });
